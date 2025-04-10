@@ -9,10 +9,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "gulp": "^5.0.0",
-    "gulp-sass": "^6.0.0",
-    "sass": "^1.81.0"
-  }
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.86.3"
+  },
+  "dependencies": {
+    "clone_disneyplus": "file:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucsl21/clone_disneyplus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucsl21/clone_disneyplus/issues"
+  },
+  "homepage": "https://github.com/lucsl21/clone_disneyplus#readme",
+  "description": ""
 }
