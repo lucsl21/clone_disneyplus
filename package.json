@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,12 +11,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^5.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^6.0.1",
     "sass": "^1.86.3"
   },
   "dependencies": {
-    "clone_disneyplus": "file:"
+    "clone_disneyplus": "file:",
+    "gulp": "^4.0.2"
   },
   "repository": {
     "type": "git",
